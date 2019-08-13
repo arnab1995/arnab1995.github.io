@@ -166,56 +166,6 @@ button, select, input {
   top: 2px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
-
-:root {
-  --color-one: #E48D1A; /* change colors of the gradient here */
-  --color-two: #32088D;
-  --blendmode: screen; /* change gradient blend mode here */
-}
-
-body {
-  position: relative;
-	margin: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-.cont {
-  position: relative;
-}
-
-h1 {
-  position:fixed;
-  top:50vh;
-  left:50%;
-  transform: translate(-50%,-50%);
-  font-family: 'Roboto';
-  color:var(--color-two);
-  z-index:2;
-}
-
-#pic {
-  width:100vw;
-  height:100vh;
-  overflow:hidden;
-  background-image: url('https://images.unsplash.com/photo-1495757450029-09dbedacbc36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
-  background-size:cover;
-  background-position:center center;
-}
-
-#filter {
-  width:100vw;
-  height:100vh;
-  position:absolute;
-  top:0;
-  left:0;
-  background-image: linear-gradient(to right bottom, var(--color-one), var(--color-two));
-  mix-blend-mode: var(--blendmode);
-}
-
 
 html, body{
   height: 100%;
@@ -254,5 +204,4 @@ div, body{
   color: #fff;
   padding: 0.5em;
 }
-
 
